@@ -200,3 +200,47 @@ footer img{
    width:50px;
 }
 
+@media (max-width: 678px) {
+
+    header, main {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    table {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding:0;
+    }
+
+    .site-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .site-logo{
+        width:98%;
+        margin-top:3em;
+        height:8em;
+    }
+
+    h1, h2{
+        margin-right:0;
+    }
+}
